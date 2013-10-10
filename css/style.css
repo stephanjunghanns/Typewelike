@@ -1,0 +1,666 @@
+/* @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans|Roboto+Slab|Droid+Serif|Droid|Lato:900|Fruktur|Old+Standard+TT:400italic,400|Trocchi|Montserrat+Alternates:700|Quicksand:300|Devonshire:400|Mrs+Saint+Delafield|Six+Caps|PT+Mono|Playfair+Display:900italic,700|Source+Sans+Pro:200,300,400,700,600italic|Signika|Quando|Playfair+Display:400italic); */
+
+html,body{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-font-smoothing:antialiased}h1,h2,h3,p{padding:0;margin:0}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background-color:#fff}::-webkit-scrollbar-thumb{background-color:#000}::-webkit-scrollbar-corner{background-color:#fff}.col{border:0 solid rgba(0,0,0,0);float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-moz-background-clip:padding-box!important;-webkit-background-clip:padding-box!important;background-clip:padding-box!important}.row .col:last-child{margin-right:0}.row .col{margin-right:30px}.span_2{width:236px}.span_3{width:370px}.span_4{width:504px}.wrapper{width:770px;margin:0 auto}
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+section a:hover {
+	opacity: 0.6;
+	display: block;
+}
+
+.intro a:hover {
+	display: inline
+}
+
+
+/* ARVO SLAB */
+
+.arvo {
+	background: #3B3F46;
+	font-family: 'Open Sans';
+	color: #fff;
+	padding: 130px 0 130px 0;
+}
+
+.arvo h2 {
+	font-family: 'Arvo';
+	font-size: 75px;
+	line-height: 1.1em;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.arvo h2 span {
+	font-weight: 700;
+}
+
+.arvo h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 45px;
+}
+
+.arvo p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.arvo .row {}
+
+/* INTRO */
+
+.intro {
+    background-color:#fff;
+    font-size: 48px;
+	color: rgb(0, 139, 134);
+	padding: 160px 0 200px 0;
+    text-align:center;
+    }
+    
+.intro h1 {
+    background-color:#fff;
+	font-family: 'Playfair Display';
+    font-weight: 700;
+    letter-spacing:0.1em;
+    font-size: 16px;
+	color: rgb(99, 99, 99);
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom: 5px;
+ 
+}
+
+.intro h2 {
+    background-color:#fff;
+	font-family: 'Playfair Display';
+    font-weight: 900;
+    font-style:italic;
+    margin-bottom: 15px;
+    font-size: 68px;
+	color: rgb(0, 139, 134);
+    text-align:center;
+ 
+}
+
+/* Railway */
+
+.railway {
+font-family: 'Raleway', sans-serif;
+background: url(../img/bg.jpg) no-repeat center bottom;
+padding: 260px 0;
+-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+
+.railway h2 span {
+}
+.railway h2 {
+font-size: 67px;
+text-align: center;
+color: #FFF;
+text-transform: uppercase;
+    border: none;
+}
+
+.railway h2 .the {
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.railway h2 .willnot {
+background: rgba(0, 0, 0, 0.4);
+padding: 10px 120px;
+color: #FFF;
+text-align: center;
+font-size: 45px;
+font-weight: 300;
+letter-spacing: 0.08em;
+    border: none;
+}
+
+.railway h2 .tele {
+font-weight: 300;
+font-size: 108px;
+    border-bottom: 4px solid;
+}
+
+/* Quando again */
+
+.quandoAgain { 
+	font-family: 'Quando';
+	padding: 280px 0;
+	background: url('https://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/geometry.png') repeat;
+}
+
+.quandoAgain h2 {
+font-size: 50px;
+color: #383838;
+text-align: center;
+font-weight: 500;
+margin-bottom: 35px;
+}
+
+.quandoAgain h3 {
+font-family: 'Open Sans';
+color: #e96e57;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+text-align: center;
+font-size: 25px;
+width: 640px;
+font-weight: 600;
+margin: auto;
+}
+
+
+
+
+/* klausi */
+
+.klausi {   
+	background: #f8f8f8;
+	font-family: 'Six Caps';
+	padding: 200px 0;
+}
+
+.klausi small {
+	color: #9A9A97;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+	display: none;
+}
+
+.klausi h2 {
+    letter-spacing: 0.1em;
+    font-size: 190px;
+	line-height: 0.37em;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.14);
+
+
+}
+
+.klausi h2 .trans {
+    letter-spacing: 0em;
+    margin-left: -15px;
+    font-family: 'Mrs Saint Delafield';
+    font-size: 60px;
+	line-height: 0em;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #00c3d3;
+
+
+}
+
+.klausi h2 span {
+    padding-bottom: 2px;
+}
+
+.klausi h3 {
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Droid';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 60px;
+    color: #00c3d3;
+    /* text-transform: uppercase; */
+}
+
+/* PTMONO */
+
+.ptmono {
+     background: url('https://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/broken_noise.png') repeat;
+	font-family: 'PT Mono';
+	color: rgb(255, 250, 127);
+	padding: 220px 0 220px 0;
+ 
+}
+
+.ptmono h2 {
+
+	font-size: 40px;
+	font-weight: 400;
+    letter-spacing: -0.0em;
+	line-height: 2em;
+}
+
+.ptmono h2 span {
+	font-size: px;
+    color: rgb(255, 255, 255);
+	border: 2px solid rgb(255, 255, 255);
+    padding: 12px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+}
+
+.ptmono h3 {
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.29);   
+	font-size: 14px;
+	font-weight: 400;
+    letter-spacing: 0.2em;
+	line-height: 1.7em;
+}
+
+.ptmono h3 span, .ptmono h3 span a {
+   color:rgba(255, 255, 255, 0.70);
+   text-decoration: none;
+}
+
+/* Courier */
+ .courier {
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    background: #FFD3D3;
+    padding: 150px 0;
+}
+.courier h2 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.courier p {
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+.courier .divider {
+    border-bottom: 1px solid #000;
+    width: 20px;
+    margin-bottom: 15px;
+}
+.courier .additional {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+}
+
+/* Typewriter */
+
+.typewriter {
+    font-family: 'PT Mono';
+    background: #F7F7F7;
+    padding: 220px 0;
+    text-align: center;
+}
+
+.typewriter h2 {
+    color: #757575;
+font-weight: 600;
+}
+
+.typewriter h2 span {
+    color: #FF7000;
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal; /* not "linear" */
+    -webkit-animation-fill-mode:forwards;
+    -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0); 
+}
+
+@-webkit-keyframes blink {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* ROBOTO SLAB */
+
+.robotoSlab {
+	background: #c1392b;
+	font-family: 'Roboto Slab';
+	color: rgba(0, 0, 0, 0.6);
+	padding: 150px 0 160px 0;
+}
+
+.robotoSlab h2 {
+	font-size: 54px;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+.robotoSlab h2 span {
+	color: rgba(255, 255, 255, 0.9);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	padding-bottom: 4px;
+}
+
+/* Serif */
+
+.serif {
+	background: #FCF8EF;
+	font-family: 'Lato';
+	padding: 100px 0;
+}
+
+.serif small {
+	color: #9A9A97;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+	display: none;
+}
+
+.serif h2 {
+	font-size: 70px;
+	line-height: 1.1em;
+	font-weight: 900;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #202020;
+
+
+
+}
+
+.serif h2 span {
+    padding-bottom: 2px;
+}
+
+.serif h3 {
+    text-align: center;
+
+    font-style: italic;
+    font-family: 'Droid Serif';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+    color: #414141;
+    /* text-transform: uppercase; */
+}
+
+.serif p {
+	font-family: 'Droid Serif';
+	font-size: 23px;
+	line-height: 1.6em;
+	padding-bottom: 40px;
+	color: #6E6C69;
+}
+
+.serif strong {
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 20px;
+    display: block;
+    letter-spacing: 0.05em;
+}
+
+.serif .span_4 {
+	width: 71%;
+}
+
+.serif .span_2 {
+	width: 25%;
+	font-size: 15px;
+}
+
+/* Fruktur */
+
+.fruktur {
+	background: #829B1E;
+	font-family: 'Fruktur';
+	padding: 100px 0;
+}
+
+.fruktur h2 {
+	font-size: 100px;
+	line-height: 1.3em;
+	font-weight: 100;
+	margin-bottom: 70px;
+	text-align: center;
+	font-style: italic;
+	color: #FFFFFF;
+	-webkit-transform: rotate(-3.8deg);
+-moz-transform: rotate(-3.8deg);
+-ms-transform: rotate(-3.8deg);
+-o-transform: rotate(-3.8deg);
+}
+
+.fruktur h2 span {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.37);
+    padding-bottom: 2px;
+}
+
+/* Old Standard */
+
+.oldstandard {
+font-family: 'Old Standard TT';
+background: #3d343f;
+text-align: center;
+color: #fff;
+padding: 100px 0;
+}
+
+.oldstandard h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+    letter-spacing: 0.15em;
+}
+
+.oldstandard h2 span {
+font-weight: 300;
+}
+
+.oldstandard h3 {
+    font-size: 80px;
+    line-height: 1.1em;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-bottom: 7px solid #FFF;
+    border-top: 7px solid #fff;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    color: #48AF75;
+}
+
+.oldstandard p {
+font-family: 'Trocchi', serif;
+text-align: left;
+line-height: 1.65;
+font-size: 20px;
+padding-bottom: 28px;
+}
+
+.oldstandard .first p:first-child:first-letter { float: left; color: #48AF75; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; }
+
+
+/* Bars */
+
+.bars {font-family: 'Helvetica Neue', Helvetica, sans-serif;padding: 200px 0; background: rgba(0, 238, 190, 0.6); font-weight: bold; position: relative;}
+
+.bars:after{
+content: "";
+background: url(http://31.media.tumblr.com/0b75b3432c6c42f40ce5391299db49d0/tumblr_mqq4l2H3Fh1st5lhmo1_1280.jpg) no-repeat center bottom fixed;
+opacity: 0.5;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+height: 100%;
+width: 100%;
+-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			}
+
+.bars h2 {
+    font-size: 85px;
+    line-height: 1.3em;
+    letter-spacing: -0.04em;
+    font-weight: bold;
+
+}
+.bars h2 span {
+    background: #fff;
+    padding: 3px 29px;
+}
+.bars h2 .amper {
+    padding: 0 20px 0 0;
+    font-family: Baskerville;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Hipster */
+
+.hipster { font-family: 'Montserrat Alternates';
+ background: url(http://25.media.tumblr.com/671b8e3267c91e1b3bbc71609dad5b3c/tumblr_mrshxgD8No1sfie3io1_1280.jpg) no-repeat center bottom fixed;
+-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+ text-align: center; height: 400px; padding-top: 250px;}
+.hipster h2 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.hipster h2 span {
+border: 10px solid #FFF;
+padding: 20px 50px;
+}
+
+/* Source Sans */
+ .sourcesans {
+    padding: 180px 0;
+    background: #333;
+    font-family: 'Source Sans Pro';
+    color: #fff;
+}
+
+.sourcesans h2 {
+     font-weight: 400;
+font-size: 30px;
+margin-bottom: 20px;
+color: #99D500;
+}
+
+.sourcesans h2 span {
+         font-weight: 600;
+    font-style: italic;
+}
+
+.sourcesans p {
+    line-height: 1.5em;
+font-size: 17px;
+}
+
+.sourcesans p.quote {
+margin-top: 20px;
+color: rgba(255, 255, 255, 0.43);
+}
+
+/* Quando */
+ .quando {
+    padding: 180px 0;
+    background: #f9ce34;
+}
+.quando h2 {
+    font-family:'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.quando h3 {
+    font-family:'Quando', serif;
+    font-size: 60px;
+    line-height: 1.3em;
+    font-weight: 300;
+    border-bottom: 2px dotted #FFF;
+    padding: 20px 0;
+    margin: 10px 0 30px 0;
+    border-top: 2px dotted #FFF;
+}
+.quando h3 span {
+    float: left;
+    color: #FFF;
+    font-weight: 300;
+    font-family:'Playfair Display', serif;
+    line-height: 60px;
+    font-style: italic;
+    font-size: 90px;
+    position: relative;
+    right: 40px;
+    margin-right: -30px;
+}
+.quando p {
+    font-family:'Signika', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+/* Footer */
+
+.colophon {
+	text-align: center;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 13px;
+	font-weight: 600;
+	color: #A5A5A5;
+	background: #000;
+	padding: 25px 0 20px 0;
+}
+
+.colophon a {
+    color: #696969;
+	
+    text-decoration: none;
+}
+
+.colophon a:hover {
+	text-decoration: underline;
+}
+
+.sharing {
+	width: 230px;
+margin: 20px auto;
+text-align: center;
+}
+
+.twitter-follow-button {
+	margin: auto;
+	text-align: center;
+	margin-left: 50px;
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
